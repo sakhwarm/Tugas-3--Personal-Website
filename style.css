@@ -1,0 +1,93 @@
+/* 
+Nama: Sakhwa Raflisa Maulidiwan 
+NIM: 2404735
+Kelas: 3B (di SPOT 3A)*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(218, 184, 141);
+}
+
+#header{
+    background-color: beige;
+    padding: 5px 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px; 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.profil{
+    text-align: center;
+    width: 660px;
+}
+
+.profil img{
+    border-radius: 50%;
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 2px 4px 4px 2px;
+}
+
+.galery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    background-color: rgb(168, 127, 73);
+}
+
+.kartu-aktivitas{
+    background-color: rgb(184, 147, 99);
+    padding: 5px 15px;
+    border: 3px dashed bisque;
+    border-radius: 10%;
+    flex-basis: 30%;
+    margin: 15px;
+    box-shadow: 4px 4px 4px;
+}
+
+.kartu-aktivitas:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+@media screen and (min-widht: 768px){
+    .kartu-aktivitas{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+h1{
+    font-family: Poppins;
+    color: rgb(215, 184, 144);
+}
+
+h2{
+    font-family: Poppins;
+    color: beige;
+    text-align: center;
+    align-self: center;
+}
+
+h3{
+    font-family: Poppins;
+    text-align: center;
+    color: rgb(218, 184, 141);
+}
+
+.kartu-aktivitas p{
+    text-align: center;
+}
+
+
+
+
